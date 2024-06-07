@@ -1,0 +1,29 @@
+shadows= 3px 3px 5px
+first is for vertical shadow
+second is for horizontal
+third is for blur shadow
+
+
+<!DOCTYPE html>
+<html>
+	
+<link rel="stylesheet" href="style.css">
+		<head>
+		<h1>Sujay Langade</h1>
+		<div id="box1"></div>
+		
+		</head>
+	</body>
+</html>
+
+style.css
+
+h1{
+    text-shadow: 3px 3px 5px red, -3px -3px 5px rgb(157, 255, 0);;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px;
+}
